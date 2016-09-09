@@ -1,0 +1,42 @@
+{
+    "coefficient_dict": {
+        "NO": 0,
+        "Br2": 2,
+        "N2O2": 1,
+        "NOBr": 3
+    },
+    "reagents": [
+        "NO",
+        "Br2"
+    ],
+    "coefficient_array": [
+        [
+            0.0,
+            -1.0,
+            -1.0,
+            2.0
+        ],
+        [
+            -2.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    ],
+    "reagentPERs": {
+        "NO": [
+            false,
+            true
+        ],
+        "Br2": [
+            false,
+            false
+        ]
+    },
+    "energy_dict": {
+        "NO": 86.56696,
+        "Br2": 3.142184,
+        "N2O2": 202.88216,
+        "NOBr": 82.4248
+    }
+}

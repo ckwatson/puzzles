@@ -1,0 +1,40 @@
+{
+    "coefficient_dict": {
+        "H": 4,
+        "H2": 3,
+        "Br": 1,
+        "Br2": 0,
+        "HBr": 2
+    },
+    "energy_dict": {
+        "H": 0.0,
+        "H2": 0.0,
+        "Br": 82400.0,
+        "Br2": 3100.0,
+        "HBr": -53400.0
+    },
+    "coefficient_array": [
+        [-1.0, 2.0, 0.0, 0.0, 0.0],
+        [0.0, -1.0, 1.0, -1.0, 1.0],
+        [-1.0, 1.0, 1.0, 0.0, -1.0],
+        [0.0, -1.0, 1.0, 0.0, -1.0],
+        [0.0, 0.0, 0.0, -1.0, 2.0]
+    ],
+    "reagents": ["Br2", "H2"],
+    "reagentPERs": {
+        "Br2": [
+            true,
+            false,
+            false,
+            false,
+            false
+        ],
+        "H2": [
+            false,
+            false,
+            false,
+            false,
+            true
+        ]
+    }
+}
