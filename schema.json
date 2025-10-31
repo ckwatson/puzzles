@@ -4,50 +4,50 @@
   "properties": {
     "puzzleName": {
       "type": "string",
-      "pattern": "^[\\w,\\s-]+$" 
+      "pattern": "^[\\w,\\s-]+$"
     },
     "reactions": {
       "type": "array",
-      "minItems": 1, 
-      "items": { 
+      "minItems": 1,
+      "items": {
         "type": "array",
-        "items": { 
+        "items": {
           "type": "string",
-          "pattern": "^\\w*$" 
+          "pattern": "^\\w*$"
         },
-        "minItems": 4, 
-        "maxItems": 4  
+        "minItems": 4,
+        "maxItems": 4
       }
     },
     "speciesNames": {
       "type": "array",
-      "minItems": 1, 
-      "items": { 
+      "minItems": 1,
+      "items": {
         "type": "string",
-        "pattern": "^\\w*$" 
+        "pattern": "^\\w*$"
       }
     },
     "speciesIfReactants": {
       "type": "array",
-      "minItems": 1, 
-      "items": { 
+      "minItems": 1,
+      "items": {
         "type": "boolean"
       }
     },
     "speciesEnergies": {
       "type": "array",
-      "minItems": 1, 
-      "items": { 
+      "minItems": 1,
+      "items": {
         "type": "number"
       }
     },
     "reagentPERs": {
       "type": "object",
-      "minItems": 1, 
-      "additionalProperties" : {
+      "minItems": 1,
+      "additionalProperties": {
         "type": "array",
-        "minItems": 1, 
-        "items": { 
+        "minItems": 1,
+        "items": {
           "type": "boolean"
         }
       }
@@ -57,7 +57,7 @@
     "puzzleName",
     "reactions",
     "speciesNames",
-    "speciesIfReactants", 
+    "speciesIfReactants",
     "speciesEnergies",
     "reagentPERs"
   ]
